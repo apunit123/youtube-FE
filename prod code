@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello World!'">Click Me!</button>
+
+<p id="demo">This is a paragraph.</p>
+
+<script>
+  // This is a single-line comment
+  /* This is a
+     multi-line comment */
+  console.log("Hello, World!"); // Output sent to the browser console
+</script>
+
+</body>
+</html>
