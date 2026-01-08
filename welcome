@@ -1,0 +1,15 @@
+// Function definition
+function calculateTriangleArea(base, height) {
+  // Area formula: 0.5 * base * height
+  const area = 0.5 * base * height;
+  return area;
+}
+
+// Function call
+const baseValue = 10;
+const heightValue = 5;
+const result = calculateTriangleArea(baseValue, heightValue);
+
+console.log("The area of the triangle is: " + result);
+// Expected output: The area of the triangle is: 25
+
